@@ -10,17 +10,29 @@
 
   <body>
     <main class="main">
-      <article>
-        <img src="avatar.png" alt="Zdjecie Imie i Nazwisko"/>
-        <header>
-          <h1>Name and Surname</h1>
-          <p>position</p>
+      <article class="person">
+        <img
+          class="person__picture"
+          src="avatar.png"
+          alt="Zdjecie Imie i Nazwisko"
+        />
+        <header class="person__info">
+          <h1 class="person__name">Name and Surname</h1>
+          <p class="person__position">position</p>
         </header>
 
-        <p>main description jfvsfgfdkf  Programista z kilkunastoletnim doświadczeniem, fotograf,
-           operator drona, właściciel Sokoła Millennium (na razie tylko z Lego), prelegent i szkoleniowiec.
-          Uwielbia eksperymentować z nowymi technologiami, w swojej twórczości ocierając się o sztukę.</p>
-        <p>links: Facebook, Github, Instagram</p>
+        <p class="person__description">
+          main description jfvsfgfdkf Programista z <strong class="special">kilkunastoletnim
+          doświadczeniem</strong>, fotograf, operator drona, właściciel Sokoła Millennium
+          (na razie tylko z Lego),<strong class="special">prelegent i szkoleniowiec</strong>. Uwielbia
+          eksperymentować z nowymi technologiami, w swojej twórczości ocierając
+          się o sztukę.
+        </p>
+        <p class="person__description">links: 
+          <a class="person__link" href="#">Facebook</a>, 
+          <a class="person__link" href="#">Github</a>,
+          <a class="person__link" href="#">Instagram</a>,
+        </p>
       </article>
     </main>
   </body>
